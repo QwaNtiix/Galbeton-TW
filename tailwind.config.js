@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         first:
-          "url('https://cdn.discordapp.com/attachments/1043641455643742208/1121819571926605934/161724273_123307499737155_4550365991362419331_n.png')",
+          "url('https://r4.wallpaperflare.com/wallpaper/712/767/582/building-concrete-construction-job-site-wallpaper-662adcf412388d5628437bb2b8ba8d84.jpg')",
       },
     },
   },

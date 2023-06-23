@@ -535,8 +535,8 @@ video {
   margin-bottom: 6rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -551,8 +551,16 @@ video {
   height: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-4\/5 {
   width: 80%;
+}
+
+.w-\[49\%\] {
+  width: 49%;
 }
 
 .w-full {
@@ -575,13 +583,18 @@ video {
   border-radius: 1.5rem;
 }
 
+.bg-\[\#a5a58d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(165 165 141 / var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-first {
-  background-image: url('https://cdn.discordapp.com/attachments/1043641455643742208/1121819571926605934/161724273_123307499737155_4550365991362419331_n.png');
+  background-image: url('https://r4.wallpaperflare.com/wallpaper/712/767/582/building-concrete-construction-job-site-wallpaper-662adcf412388d5628437bb2b8ba8d84.jpg');
 }
 
 .bg-cover {
@@ -596,21 +609,39 @@ video {
   background-repeat: no-repeat;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .font-sans {
   font-family: Gloock;
+}
+
+.text-\[1\.2vw\] {
+  font-size: 1.2vw;
+}
+
+.text-\[1\.9vw\] {
+  font-size: 1.9vw;
 }
 
 .text-\[15\.7vw\] {
   font-size: 15.7vw;
 }
 
-.text-\[2vw\] {
-  font-size: 2vw;
+.text-\[4\.5vw\] {
+  font-size: 4.5vw;
 }
 
 .text-\[\#eddcd2\] {
   --tw-text-opacity: 1;
   color: rgb(237 220 210 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .grayscale {
