@@ -11,6 +11,7 @@
     onload="
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let d = new Date()
+    console.log(monthNames[0]);
     document.querySelector('#Date').textContent = `${monthNames[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
     "
   >
@@ -90,11 +91,13 @@
             </div>
             <div class="mb-7 text-3xl">
               <h3>
-                Для підрахунку натисніть кнопку "Підразувати" та внесіть дані.
+                Для підрахунку натисніть кнопку "ПІДРАХУВАТИ" та внесіть дані.
               </h3>
             </div>
-            <div class="h-full w-full bg-black">
-              <button type="button" class="bg-black"></button>
+            <div
+              class="h-15 w-full rounded-lg bg-[#826e5a] text-center text-3xl text-white"
+            >
+              ПІДРАХУВАТИ
             </div>
           </div>
         </div>
