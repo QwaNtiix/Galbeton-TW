@@ -7,8 +7,10 @@ module.exports = {
         sans: ["Gloock"],
       },
       backgroundImage: {
-        first:
-          "url('https://r4.wallpaperflare.com/wallpaper/712/767/582/building-concrete-construction-job-site-wallpaper-662adcf412388d5628437bb2b8ba8d84.jpg')",
+        first: "url(/src/images/first.jpg)",
+        second: "url(/src/images/sec.jpg)",
+        third: "url(/src/images/thrd.jpg)",
+        forth: "url(/src/images/forth.avif)",
       },
     },
   },

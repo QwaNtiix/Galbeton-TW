@@ -534,14 +534,6 @@ video {
   grid-column-start: 1;
 }
 
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-3 {
-  grid-column-start: 3;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -555,40 +547,20 @@ video {
   margin-bottom: 6rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
-.ml-\[4\.5\%\] {
-  margin-left: 4.5%;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-7 {
   margin-bottom: 1.75rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mr-60 {
-  margin-right: 15rem;
-}
-
-.ml-60 {
-  margin-left: 15rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
+.ml-\[4\.5\%\] {
+  margin-left: 4.5%;
 }
 
 .inline-block {
@@ -615,16 +587,12 @@ video {
   height: 100%;
 }
 
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
 .w-1\/2 {
   width: 50%;
+}
+
+.w-2\/6 {
+  width: 33.333333%;
 }
 
 .w-4\/5 {
@@ -639,64 +607,8 @@ video {
   width: 100%;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-2\/6 {
-  width: 33.333333%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-\[calc\] {
-  width: calc;
-}
-
-.w-\[calc\(\)\] {
-  width: calc();
-}
-
-.w-\[calc\(full\)\] {
-  width: calc(full);
-}
-
-.w-\[calc\(full\+10\)\] {
-  width: calc(full+10);
-}
-
-.w-\[calc\(full\+10px\)\] {
-  width: calc(full+10px);
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-\[full\] {
-  width: full;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .grid-rows-2 {
@@ -705,10 +617,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -727,20 +635,16 @@ video {
   justify-content: space-around;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-2xl {
@@ -755,13 +659,19 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.bg-\[\#826e5a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 110 90 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#a5a58d\] {
   --tw-bg-opacity: 1;
   background-color: rgb(165 165 141 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#cb997e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 153 126 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#ffe2cc\] {
@@ -779,22 +689,20 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[826e5a\] {
-  background-color: 826e5a;
-}
-
-.bg-\[\#826e5a\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(130 110 90 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#cb997e\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 153 126 / var(--tw-bg-opacity));
-}
-
 .bg-first {
-  background-image: url('https://r4.wallpaperflare.com/wallpaper/712/767/582/building-concrete-construction-job-site-wallpaper-662adcf412388d5628437bb2b8ba8d84.jpg');
+  background-image: url(/src/images/first.jpg);
+}
+
+.bg-forth {
+  background-image: url(/src/images/forth.avif);
+}
+
+.bg-second {
+  background-image: url(/src/images/sec.jpg);
+}
+
+.bg-third {
+  background-image: url(/src/images/thrd.jpg);
 }
 
 .bg-cover {
@@ -817,11 +725,6 @@ video {
   padding: 0.75rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -839,17 +742,23 @@ video {
   vertical-align: top;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .font-sans {
   font-family: Gloock;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-8xl {
@@ -864,21 +773,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-\[\#eddcd2\] {
@@ -896,31 +790,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.mix-blend-soft-light {
-  mix-blend-mode: soft-light;
-}
-
 .mix-blend-luminosity {
   mix-blend-mode: luminosity;
-}
-
-.brightness-200 {
-  --tw-brightness: brightness(2);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-100 {
-  --tw-brightness: brightness(1);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-50 {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .grayscale {
@@ -929,36 +800,12 @@ video {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .max-lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
 
-  .max-lg\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .max-lg\:row-start-3 {
-    grid-row-start: 3;
-  }
-
-  .max-lg\:row-start-1 {
-    grid-row-start: 1;
-  }
-
-  .max-lg\:row-start-2 {
-    grid-row-start: 2;
-  }
-
   .max-lg\:ml-\[0\%\] {
     margin-left: 0%;
-  }
-
-  .max-lg\:mb-6 {
-    margin-bottom: 1.5rem;
   }
 
   .max-lg\:block {
@@ -973,53 +820,7 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .max-lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .max-lg\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
-  }
-}
-
-@media not all and (min-width: 640px) {
-  .max-sm\:m-0 {
-    margin: 0px;
-  }
-
-  .max-sm\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .max-sm\:ml-\[4\.5\%\] {
-    margin-left: 4.5%;
-  }
-
-  .max-sm\:ml-\[0\%\] {
-    margin-left: 0%;
-  }
-
-  .max-sm\:block {
-    display: block;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
-}
-
-@media not all and (min-width: 640px) {
-  @media (min-width: 640px) {
-    .max-sm\:sm\:block {
-      display: block;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:block {
-    display: block;
   }
 }
